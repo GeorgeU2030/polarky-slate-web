@@ -1,0 +1,1 @@
+export const GUTTER = 'px-6 sm:px-10 lg:px-16 xl:px-20'

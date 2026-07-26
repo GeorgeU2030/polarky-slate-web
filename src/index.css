@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&display=swap');
+
+@import "tailwindcss";
+@import "@heroui/styles";
+
+@theme {
+  --font-sans: "Alan Sans", sans-serif;
+
+  --color-ink: #0d0e10;
+  --color-paper: #f4f3ef;
+
+  --color-accent-soft: #e6d3ad;
+  --color-accent: #c9a35d;
+  --color-accent-dim: #9d7b3d;
+
+  --color-brand: #b01934;
+  --color-brand-dim: #621422;
+  --color-brand-bright: #e2102f;
+}
+
+body {
+  font-family: var(--font-sans);
+  background: var(--color-paper);
+  color: var(--color-ink);
+}
+
+.slate-scroller::-webkit-scrollbar {
+  display: none;
+}
+
+
