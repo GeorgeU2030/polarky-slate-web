@@ -61,21 +61,21 @@ export const Landing = () => {
             <span>Slate - developed by</span>
 
             <div className="flex items-center gap-2">
-              <div className="bg-paper h-7 w-7 rounded-lg flex items-center justify-center">
+              <div className="h-7 w-7 flex items-center justify-center">
                 <img
-                  src="/nephbyte.png"
-                  alt="Nephbyte"
+                  src="/Polarky.png"
+                  alt="Polarky"
                   className="h-10 w-10 scale-125 object-contain"
                 />
               </div>
               <span className="font-medium text-paper">
-                Nephbyte
+                polarky
               </span>
             </div>
           </div>
 
           <p>
-            © {new Date().getFullYear()} Nephbyte. All rights reserved.
+            © {new Date().getFullYear()} polarky. All rights reserved.
           </p>
         </div>
       </footer>

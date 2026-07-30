@@ -98,7 +98,7 @@ export function AuthPanel({ posterUrls = [] }: AuthPanelProps) {
       </div>
 
       <div className="relative z-10 px-12 pb-8 text-center">
-        <p className="text-xs text-paper/25">Slate - developed by Nephbyte</p>
+        <p className="text-xs text-paper/25">Slate - developed by polarky</p>
       </div>
     </div>
   )
